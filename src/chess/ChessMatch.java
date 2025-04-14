@@ -46,6 +46,10 @@ public class ChessMatch {
 			throw new ChessException("Source not found");
 		} 
 	}
+	
+	private void validateTargetPosition(Position source, Position target) {
+		if(!board.piece(source).possibleMove(target));
+	}
 
 	private void placeNewPiece(char column, int row, ChessPiece piece) {
 		board.placePiece(piece, new ChessPosition(column, row).toPosition());
