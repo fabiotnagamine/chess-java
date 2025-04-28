@@ -11,7 +11,7 @@ import chess.ChessPiece;
 import chess.ChessPosition;
 import chess.Color;
 
-public class program {
+public class program { 
 
 	public static void main(String[] args) {
 		
